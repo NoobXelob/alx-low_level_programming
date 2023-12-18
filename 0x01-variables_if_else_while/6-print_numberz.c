@@ -16,7 +16,7 @@ baseten = 0;
 
 while  (baseten < 10)
 {
-putchar(baseten);
+putchar(baseten + '0');
 baseten++;
 }
 putchar('\n');
