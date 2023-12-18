@@ -11,18 +11,18 @@
 
 int main(void)
 {
-        char lowercx;
+char lowercx;
 
-        for (lowercx = 'a'; lowercx <= 'z'; lowercx++)
-        {
-               if (lowercx != 'q' &&  lowercx != 'e')
-	       {
-		       putchar(lowercx);
-	       }
-        }
+for (lowercx = 'a'; lowercx <= 'z'; lowercx++)
+{
+if (lowercx != 'q' &&  lowercx != 'e')
+{
+putchar(lowercx);
+}
+}
 
-	putchar('\n');
+putchar('\n');
 
-	return (0);
+return (0);
 }
 
