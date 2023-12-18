@@ -17,6 +17,7 @@ baseten = 0;
 while  (baseten < 10)
 {
 printf("%d", baseten);
+baseten++;
 }
 putchar('\n');
 return (0);
