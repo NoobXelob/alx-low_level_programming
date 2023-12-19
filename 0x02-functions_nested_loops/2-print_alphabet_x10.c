@@ -13,7 +13,7 @@ char j;
 
 i = 0;
 j = 'a';
-while (i <= 10)
+while (i < 10)
 {
 for (; j <= 'z'; j++)
 {
