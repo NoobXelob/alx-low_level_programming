@@ -15,7 +15,7 @@ int main(void)
 	nums = 0;
 	alpha = 'a';
 
-	for (nums < 10;)
+	for (; nums < 10;)
 	{
 		putchar(nums);
 	}
