@@ -17,12 +17,12 @@ minx = 0;
 while (minx < 10)
 {
 if (minx != 9)
-{
 putchar(minx + '0');
+{
 putchar(',');
 putchar(' ');
-minx++;
 }
+minx++;
 }
 putchar('\n');
 
