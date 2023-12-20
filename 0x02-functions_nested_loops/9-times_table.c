@@ -16,23 +16,24 @@ for (s = 0; s <= 9; s++)
 for (e = 0; e <= 9; e++)
 {
 r = s * e;
-_putchar(' ');
 if (r > 9)
 {
+_putchar(44);
+_putchar(32);
 _putchar((r / 10) + '0');
-_putchar((r % 10) + '0');;
+_putchar((r % 10) + '0');
 }
 else
 {
-_putchar(' ');
-_putchar(r + '0');
-}
-if (e != 9)
+if (e != 0)
 {
-_putchar(',');
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
+_putchar(r + '0');
 }
 }
 _putchar('\n');
 }
 }
-
