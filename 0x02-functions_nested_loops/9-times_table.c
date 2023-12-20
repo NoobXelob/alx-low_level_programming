@@ -20,13 +20,15 @@ _putchar(' ');
 if (r > 9)
 {
 _putchar((r / 10) + '0');
-_putchar((r % 10) + '0');
-_putchar(',');
+_putchar((r % 10) + '0');;
 }
 else
 {
 _putchar(' ');
 _putchar(r + '0');
+}
+if (e != 9)
+{
 _putchar(',');
 }
 }
