@@ -12,5 +12,7 @@ int result;
 
 result = n % 10;
 
+_putchar(result + '0');
+
 return (result);
 }
