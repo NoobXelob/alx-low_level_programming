@@ -15,8 +15,8 @@ for (; s[i] != '\0'; i++)
 {
 if (s[i] == c)
 {
-seen = &s[i];
-return seen;
+seen = s + i;
+return (seen);
 }
 }
 return (NULL);
